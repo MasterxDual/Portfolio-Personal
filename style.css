@@ -1,0 +1,7 @@
+.circular-image {
+    position: relative;
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+    left: 768px;
+}
