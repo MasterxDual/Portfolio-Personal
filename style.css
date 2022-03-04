@@ -1,3 +1,42 @@
+html {
+    font-family: "Raleway";
+}
+
+.secciones h3 {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color:#464646;
+    padding: 32px 152px; 
+
+}
+
+#icono3 {
+    position: relative;
+    bottom: 8px;
+    right: 8px;
+}
+
+nav li {
+    display: inline;
+    position: relative;
+    left: 500px;
+    bottom: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+}
+
+li:last-child {
+    font-weight: bold;
+}
+
 .circular-image {
     position: relative;
     width: 368px;
