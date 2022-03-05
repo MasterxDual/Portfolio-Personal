@@ -1,0 +1,33 @@
+html {
+    font-family: "Raleway";
+}
+
+.sobre-mi {
+    padding-top: 64px;
+    padding-left: 152px;
+}
+
+.sobre-mi h1 {
+    font-size: 32px;
+    line-height: 37.57px;
+    color: #464646;
+    width: 137px;
+    height: 38px;
+    font-weight: bold;
+}
+
+.sobre-mi p {
+    width: 751px;
+    height: 133px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.sobre-mi img {
+    width: 304px;
+    height: 104px;
+    position: relative;
+    bottom: 40px;
+    right: 65px;
+}
