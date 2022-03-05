@@ -1,5 +1,7 @@
 html {
     font-family: "Raleway";
+    position: relative;
+    right: 50px;
 }
 
 .secciones h3 {
@@ -12,10 +14,21 @@ html {
 
 }
 
+#icono1 {
+    position: relative;
+    top: 3px;
+}
+
+#icono2 {
+    position: relative;
+    top: 7px;
+    right: 1px;
+}
+
 #icono3 {
     position: relative;
-    bottom: 8px;
-    right: 8px;
+    bottom: 7px;
+    right: 8.9px;
 }
 
 nav li {
@@ -37,10 +50,47 @@ li:last-child {
     font-weight: bold;
 }
 
+.principal h1 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 61px;
+    color: #464646;
+    padding: 100px 0px 0px 148px ;
+}
+
+.principal p {
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    margin: 24px 0px 0px 148px;
+}
+
 .circular-image {
     position: relative;
     width: 368px;
     height: 368px;
     border-radius: 50%;
-    left: 768px;
+    bottom: 290px;
+    left: 820px;
+}
+
+.redes-sociales li {
+    display: inline;
+    position: relative;
+    left: 150px;
+    bottom: 350px;
+    padding-right:28px;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.flechas {
+    margin-left: 8px;
 }
