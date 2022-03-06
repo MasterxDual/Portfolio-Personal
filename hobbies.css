@@ -1,0 +1,45 @@
+html {
+    font-family: "Raleway";
+    background: #F5F5F5;
+}
+
+.skills {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.skills h1 {
+    position: relative;
+    width: 82px;
+    height: 38px;
+    left: 600px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    padding: 32px 0px;
+}
+
+.cuadrados {
+    display: inline-block;
+    width: 176px;
+    height: 174px;
+    line-height: 270px;
+    margin: 32px 16px 0px 172px;
+    background: #FFFFFF;
+}
+
+.texto-encima {
+    position: absolute;
+    padding: 4px 16px 16px 16px;
+    top: 145px;    
+    font-weight: bold;
+    font-size: 16px;
+    color: #464646;
+}
+
+.cuadrados img {
+    margin: 94px 136px 33px 16px; 
+    width: 29px;
+    height: 24px;
+}
