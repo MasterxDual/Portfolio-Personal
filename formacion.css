@@ -1,4 +1,63 @@
 html {
     font-family: "Raleway";
-    background: #f5f5F5;
+    background: #2A7AE4;
+}
+
+.formacion {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.formacion h1 {
+    position: relative;
+    width: 339px;
+    height: 38px;
+    left: 470px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+    color: #464646;
+    padding: 32px 0px 32px;
+}
+
+.cuadrados {
+    display: inline-block;
+    width: 318px;
+    height: 236px;
+    line-height: 270px;
+    margin: 32px 50px 0px 55px;
+    background: #FFFFFF;
+}
+
+.texto-formacion {
+    position: absolute;
+    top: 380px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: normal;
+    text-align: left;
+    color: #464646;
+}
+
+.fecha-formacion {
+    position: absolute;
+    top: 430px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: normal;
+    text-align: left;
+    color: #464646;
+}
+
+#fecha-formacion {
+    position: absolute;
+    top: 405px;
+}
+
+.cuadrados img {
+    margin: 50px 58px; 
+    width: 190px;
+    height: 130px;
 }
