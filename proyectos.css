@@ -1,5 +1,6 @@
 html {
     background: #F5F5F5;
+    font-family: "Raleway";
 }
 
 .proyecto {
@@ -23,6 +24,41 @@ html {
     width: 368px;
     height: 112px;
     line-height: 270px;
-    bottom: 170px;
-    background: blue;
+    bottom: 270px;
+    right: 40px;
+    background: #FFFFFF;
+}
+
+.info-proyecto, .texto {
+    position: absolute;
+    line-height: normal;
+    margin: 5px;
+    line-height: 34px;
+}
+
+.texto h1 {
+    font-size: 22px;
+    color: #464646;
+    font-weight: bold;
+}
+
+.texto p {
+    font-size: 16px;
+    color: #464646;
+    font-weight: 500;
+}
+
+.boton {
+    width: 105px;
+    height: 42px;
+    padding: 10px 20px;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: #2A7AE4 2px solid;
+}
+
+#button {
+    background-color: #FFFFFF;
+    color: #2A7AE4;
 }
