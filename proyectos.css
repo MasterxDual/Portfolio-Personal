@@ -1,3 +1,28 @@
 html {
     background: #F5F5F5;
 }
+
+.proyecto {
+    display: inline-block;
+    line-height: 270px;
+    width: 802px;
+    height: 456px;
+    background: #FFFFFF;
+    margin: 100px 0px 0px 65px;
+}
+
+.proyecto img {
+    width: 752px;
+    height: 406px;
+    margin: 25px;
+}
+
+.info-proyecto {
+    display: inline-block;
+    position: relative;
+    width: 368px;
+    height: 112px;
+    line-height: 270px;
+    bottom: 170px;
+    background: blue;
+}
