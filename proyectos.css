@@ -25,7 +25,7 @@ html {
     height: 112px;
     line-height: 270px;
     bottom: 270px;
-    right: 40px;
+    right: 20px;
     background: #FFFFFF;
 }
 
@@ -61,4 +61,15 @@ html {
 #button {
     background-color: #FFFFFF;
     color: #2A7AE4;
+}
+
+.info-proyecto2 {
+    display: inline-block;
+    position: relative;
+    width: 358px;
+    height: 152px;
+    line-height: 270px;
+    bottom: 165px;
+    left: 10px;
+    background: #FFFFFF;
 }
