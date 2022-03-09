@@ -8,3 +8,68 @@ div img {
     height: 593px;
     padding: 100px 16px 65.5px 152px;
 }
+
+.formulario {
+    position: relative;
+    bottom: 660px;
+    left: 620px;
+    padding-left: 16px;
+}
+
+.formulario h1 {
+    font-weight: bold;
+    font-size: 32px;
+    color: #464646;
+    list-style: 38px;
+    padding-bottom: 8px;
+}
+
+.formulario p {
+    width: 656px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    padding-bottom: 32px;
+}
+
+form label {
+    position: absolute;
+    top: 100px;
+}
+
+.campoTexto {
+    width: 656px;
+    height: 56px;
+    border-radius: 4px;
+    margin: 8px 0px;
+}
+
+.campoTexto::placeholder {
+    padding: 16px 340px 16px 12px;
+}
+
+#email {
+    position: absolute;
+    top: 180px;
+}
+
+#Message {
+    width: 656px;
+    height: 133px;
+}
+
+#submit {
+    position: relative;
+    top: 110px;
+    right: 668px;
+    width: 144px;
+    height: 51px;
+    background: #2A7AE4;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-weight: normal;
+    margin-top: 32px;
+}

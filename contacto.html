@@ -12,18 +12,18 @@
         <div>
             <img src= "images/phone.png" alt= "Teléfono descolgado">
         </div> 
-        <section class= "formulario">
+        <div class= "formulario">
+            <h1>Contacto</h1>
+            <p>¿Quieres contactarme? <br> Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
             <form>
-                <ul>
-                    <li><h1>Contacto</h1></li>
-                    <li><p>¿Quieres contactarme? <br> Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+                <label for= "Name">Nombre</label> 
+                <input type= "text" class= "campoTexto" name= "Name" placeholder= "Fulano De Tal"/><br>
+                <label id= "email" for= "Email">E-mail</label>
+                <input type= "email" class= "campoTexto" name="Email" placeholder= "fulano@gmail.com"/><br>
+                <input type= "text" class= "campoTexto" name= "Topic" placeholder="Asunto"/><br>
+                <input type= "text" id= "Message" name= "Message" placeholder= "Mensaje"/>
+                <input type= "submit" id= "submit" value= "Enviar Mensaje"/>
             </form>
-        </section>
+        </div>
     </body>
 </html>
