@@ -95,3 +95,21 @@ li:last-child {
 .flechas {
     margin-left: 8px;
 }
+
+@media screen and (max-width: 480px) {
+    .secciones, .redes-sociales {
+        width: auto;
+    }
+
+    h3, h1, p {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    
+    
+}
